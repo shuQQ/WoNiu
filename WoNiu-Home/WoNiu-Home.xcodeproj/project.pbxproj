@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59E20B011D8C2AB10033D1A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E20B001D8C2AB10033D1A7 /* main.m */; };
+		59E20B0C1D8C2AB10033D1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E20B0B1D8C2AB10033D1A7 /* Assets.xcassets */; };
+		59E20B0F1D8C2AB10033D1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E20B0D1D8C2AB10033D1A7 /* LaunchScreen.storyboard */; };
+		59E20B1A1D8C2AB20033D1A7 /* WoNiu_HomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E20B191D8C2AB20033D1A7 /* WoNiu_HomeTests.m */; };
+		59E20B251D8C2AB20033D1A7 /* WoNiu_HomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E20B241D8C2AB20033D1A7 /* WoNiu_HomeUITests.m */; };
+		59E60C2B1D8C32C900C58EFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C2A1D8C32C900C58EFA /* AppDelegate.m */; };
+		59E60C331D8C337900C58EFA /* WNNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C321D8C337900C58EFA /* WNNavgationController.m */; };
+		59E60C361D8C339E00C58EFA /* WNTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C351D8C339E00C58EFA /* WNTabbarController.m */; };
+		59E60C391D8C33C300C58EFA /* WNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C381D8C33C300C58EFA /* WNBaseViewController.m */; };
+		59E60C3C1D8C33EE00C58EFA /* WNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C3B1D8C33EE00C58EFA /* WNMainViewController.m */; };
+		59E60C421D8C358F00C58EFA /* WNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C411D8C358F00C58EFA /* WNHomeViewController.m */; };
+		59E60C451D8C35AF00C58EFA /* WNNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C441D8C35AF00C58EFA /* WNNewsViewController.m */; };
+		59E60C481D8C35C500C58EFA /* WNProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C471D8C35C500C58EFA /* WNProfileViewController.m */; };
+		59E60C521D8C3AEC00C58EFA /* WNAppBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C511D8C3AEC00C58EFA /* WNAppBaseManager.m */; };
+		59E60C551D8C3B3E00C58EFA /* WNBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E60C541D8C3B3E00C58EFA /* WNBaseRequest.m */; };
+		E91E6033AA0B98B58F026B1E /* libPods-WoNiu-Home.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5136B0D675CF0DB6C9B05CD /* libPods-WoNiu-Home.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59E20B161D8C2AB20033D1A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E20AF41D8C2AB10033D1A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E20AFB1D8C2AB10033D1A7;
+			remoteInfo = "WoNiu-Home";
+		};
+		59E20B211D8C2AB20033D1A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E20AF41D8C2AB10033D1A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E20AFB1D8C2AB10033D1A7;
+			remoteInfo = "WoNiu-Home";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		148847BD6D5C25F4793F228E /* Pods-WoNiu-Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoNiu-Home.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WoNiu-Home/Pods-WoNiu-Home.debug.xcconfig"; sourceTree = "<group>"; };
+		3C6ADA4AFED9B9EC97D0F257 /* Pods-WoNiu-Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoNiu-Home.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoNiu-Home/Pods-WoNiu-Home.release.xcconfig"; sourceTree = "<group>"; };
+		59E20AFC1D8C2AB10033D1A7 /* WoNiu-Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WoNiu-Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E20B001D8C2AB10033D1A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59E20B0B1D8C2AB10033D1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59E20B0E1D8C2AB10033D1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59E20B101D8C2AB10033D1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E20B151D8C2AB20033D1A7 /* WoNiu-HomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WoNiu-HomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E20B191D8C2AB20033D1A7 /* WoNiu_HomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoNiu_HomeTests.m; sourceTree = "<group>"; };
+		59E20B1B1D8C2AB20033D1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E20B201D8C2AB20033D1A7 /* WoNiu-HomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WoNiu-HomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E20B241D8C2AB20033D1A7 /* WoNiu_HomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoNiu_HomeUITests.m; sourceTree = "<group>"; };
+		59E20B261D8C2AB20033D1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E60C291D8C32C900C58EFA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59E60C2A1D8C32C900C58EFA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59E60C311D8C337900C58EFA /* WNNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNNavgationController.h; sourceTree = "<group>"; };
+		59E60C321D8C337900C58EFA /* WNNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNNavgationController.m; sourceTree = "<group>"; };
+		59E60C341D8C339E00C58EFA /* WNTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNTabbarController.h; sourceTree = "<group>"; };
+		59E60C351D8C339E00C58EFA /* WNTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNTabbarController.m; sourceTree = "<group>"; };
+		59E60C371D8C33C300C58EFA /* WNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNBaseViewController.h; sourceTree = "<group>"; };
+		59E60C381D8C33C300C58EFA /* WNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNBaseViewController.m; sourceTree = "<group>"; };
+		59E60C3A1D8C33EE00C58EFA /* WNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNMainViewController.h; sourceTree = "<group>"; };
+		59E60C3B1D8C33EE00C58EFA /* WNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNMainViewController.m; sourceTree = "<group>"; };
+		59E60C401D8C358F00C58EFA /* WNHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNHomeViewController.h; sourceTree = "<group>"; };
+		59E60C411D8C358F00C58EFA /* WNHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNHomeViewController.m; sourceTree = "<group>"; };
+		59E60C431D8C35AF00C58EFA /* WNNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNNewsViewController.h; sourceTree = "<group>"; };
+		59E60C441D8C35AF00C58EFA /* WNNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNNewsViewController.m; sourceTree = "<group>"; };
+		59E60C461D8C35C500C58EFA /* WNProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNProfileViewController.h; sourceTree = "<group>"; };
+		59E60C471D8C35C500C58EFA /* WNProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNProfileViewController.m; sourceTree = "<group>"; };
+		59E60C4A1D8C365C00C58EFA /* WNMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNMacro.h; sourceTree = "<group>"; };
+		59E60C4F1D8C390600C58EFA /* WoNiu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WoNiu-Prefix.pch"; path = "../WoNiu-Prefix.pch"; sourceTree = "<group>"; };
+		59E60C501D8C3AEC00C58EFA /* WNAppBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNAppBaseManager.h; sourceTree = "<group>"; };
+		59E60C511D8C3AEC00C58EFA /* WNAppBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNAppBaseManager.m; sourceTree = "<group>"; };
+		59E60C531D8C3B3E00C58EFA /* WNBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNBaseRequest.h; sourceTree = "<group>"; };
+		59E60C541D8C3B3E00C58EFA /* WNBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNBaseRequest.m; sourceTree = "<group>"; };
+		E5136B0D675CF0DB6C9B05CD /* libPods-WoNiu-Home.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoNiu-Home.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59E20AF91D8C2AB10033D1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91E6033AA0B98B58F026B1E /* libPods-WoNiu-Home.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E20B121D8C2AB20033D1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E20B1D1D8C2AB20033D1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BD391B4E6B9F01446C64DD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5136B0D675CF0DB6C9B05CD /* libPods-WoNiu-Home.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59E20AF31D8C2AB10033D1A7 = {
+			isa = PBXGroup;
+			children = (
+				59E20AFE1D8C2AB10033D1A7 /* WoNiu-Home */,
+				59E20B181D8C2AB20033D1A7 /* WoNiu-HomeTests */,
+				59E20B231D8C2AB20033D1A7 /* WoNiu-HomeUITests */,
+				59E20AFD1D8C2AB10033D1A7 /* Products */,
+				94DA8191D63552B3D777C688 /* Pods */,
+				4BD391B4E6B9F01446C64DD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59E20AFD1D8C2AB10033D1A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59E20AFC1D8C2AB10033D1A7 /* WoNiu-Home.app */,
+				59E20B151D8C2AB20033D1A7 /* WoNiu-HomeTests.xctest */,
+				59E20B201D8C2AB20033D1A7 /* WoNiu-HomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59E20AFE1D8C2AB10033D1A7 /* WoNiu-Home */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C251D8C32B100C58EFA /* App */,
+				59E60C261D8C32B100C58EFA /* Business */,
+				59E60C271D8C32B100C58EFA /* Net */,
+				59E60C281D8C32B100C58EFA /* UI */,
+				59E20AFF1D8C2AB10033D1A7 /* Supporting Files */,
+			);
+			path = "WoNiu-Home";
+			sourceTree = "<group>";
+		};
+		59E20AFF1D8C2AB10033D1A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C4F1D8C390600C58EFA /* WoNiu-Prefix.pch */,
+				59E20B0B1D8C2AB10033D1A7 /* Assets.xcassets */,
+				59E20B0D1D8C2AB10033D1A7 /* LaunchScreen.storyboard */,
+				59E20B101D8C2AB10033D1A7 /* Info.plist */,
+				59E20B001D8C2AB10033D1A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59E20B181D8C2AB20033D1A7 /* WoNiu-HomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				59E20B191D8C2AB20033D1A7 /* WoNiu_HomeTests.m */,
+				59E20B1B1D8C2AB20033D1A7 /* Info.plist */,
+			);
+			path = "WoNiu-HomeTests";
+			sourceTree = "<group>";
+		};
+		59E20B231D8C2AB20033D1A7 /* WoNiu-HomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59E20B241D8C2AB20033D1A7 /* WoNiu_HomeUITests.m */,
+				59E20B261D8C2AB20033D1A7 /* Info.plist */,
+			);
+			path = "WoNiu-HomeUITests";
+			sourceTree = "<group>";
+		};
+		59E60C251D8C32B100C58EFA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C291D8C32C900C58EFA /* AppDelegate.h */,
+				59E60C2A1D8C32C900C58EFA /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		59E60C261D8C32B100C58EFA /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C501D8C3AEC00C58EFA /* WNAppBaseManager.h */,
+				59E60C511D8C3AEC00C58EFA /* WNAppBaseManager.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		59E60C271D8C32B100C58EFA /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C531D8C3B3E00C58EFA /* WNBaseRequest.h */,
+				59E60C541D8C3B3E00C58EFA /* WNBaseRequest.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		59E60C281D8C32B100C58EFA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C2C1D8C32EE00C58EFA /* Base */,
+				59E60C2D1D8C32EE00C58EFA /* Main */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		59E60C2C1D8C32EE00C58EFA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C4A1D8C365C00C58EFA /* WNMacro.h */,
+				59E60C311D8C337900C58EFA /* WNNavgationController.h */,
+				59E60C321D8C337900C58EFA /* WNNavgationController.m */,
+				59E60C341D8C339E00C58EFA /* WNTabbarController.h */,
+				59E60C351D8C339E00C58EFA /* WNTabbarController.m */,
+				59E60C371D8C33C300C58EFA /* WNBaseViewController.h */,
+				59E60C381D8C33C300C58EFA /* WNBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		59E60C2D1D8C32EE00C58EFA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C3D1D8C357700C58EFA /* Home */,
+				59E60C3E1D8C357700C58EFA /* News */,
+				59E60C3F1D8C357700C58EFA /* Profile */,
+				59E60C3A1D8C33EE00C58EFA /* WNMainViewController.h */,
+				59E60C3B1D8C33EE00C58EFA /* WNMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		59E60C3D1D8C357700C58EFA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C401D8C358F00C58EFA /* WNHomeViewController.h */,
+				59E60C411D8C358F00C58EFA /* WNHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		59E60C3E1D8C357700C58EFA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C431D8C35AF00C58EFA /* WNNewsViewController.h */,
+				59E60C441D8C35AF00C58EFA /* WNNewsViewController.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		59E60C3F1D8C357700C58EFA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				59E60C461D8C35C500C58EFA /* WNProfileViewController.h */,
+				59E60C471D8C35C500C58EFA /* WNProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		94DA8191D63552B3D777C688 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				148847BD6D5C25F4793F228E /* Pods-WoNiu-Home.debug.xcconfig */,
+				3C6ADA4AFED9B9EC97D0F257 /* Pods-WoNiu-Home.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59E20AFB1D8C2AB10033D1A7 /* WoNiu-Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E20B291D8C2AB20033D1A7 /* Build configuration list for PBXNativeTarget "WoNiu-Home" */;
+			buildPhases = (
+				F1A3D2FA18CE9407C52AE6D9 /* [CP] Check Pods Manifest.lock */,
+				59E20AF81D8C2AB10033D1A7 /* Sources */,
+				59E20AF91D8C2AB10033D1A7 /* Frameworks */,
+				59E20AFA1D8C2AB10033D1A7 /* Resources */,
+				438C99ECA81116B5E08A3B40 /* [CP] Embed Pods Frameworks */,
+				A9394D53472D8994BBA9F57F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WoNiu-Home";
+			productName = "WoNiu-Home";
+			productReference = 59E20AFC1D8C2AB10033D1A7 /* WoNiu-Home.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59E20B141D8C2AB20033D1A7 /* WoNiu-HomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E20B2C1D8C2AB20033D1A7 /* Build configuration list for PBXNativeTarget "WoNiu-HomeTests" */;
+			buildPhases = (
+				59E20B111D8C2AB20033D1A7 /* Sources */,
+				59E20B121D8C2AB20033D1A7 /* Frameworks */,
+				59E20B131D8C2AB20033D1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E20B171D8C2AB20033D1A7 /* PBXTargetDependency */,
+			);
+			name = "WoNiu-HomeTests";
+			productName = "WoNiu-HomeTests";
+			productReference = 59E20B151D8C2AB20033D1A7 /* WoNiu-HomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59E20B1F1D8C2AB20033D1A7 /* WoNiu-HomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E20B2F1D8C2AB20033D1A7 /* Build configuration list for PBXNativeTarget "WoNiu-HomeUITests" */;
+			buildPhases = (
+				59E20B1C1D8C2AB20033D1A7 /* Sources */,
+				59E20B1D1D8C2AB20033D1A7 /* Frameworks */,
+				59E20B1E1D8C2AB20033D1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E20B221D8C2AB20033D1A7 /* PBXTargetDependency */,
+			);
+			name = "WoNiu-HomeUITests";
+			productName = "WoNiu-HomeUITests";
+			productReference = 59E20B201D8C2AB20033D1A7 /* WoNiu-HomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59E20AF41D8C2AB10033D1A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "舒强";
+				TargetAttributes = {
+					59E20AFB1D8C2AB10033D1A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					59E20B141D8C2AB20033D1A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 59E20AFB1D8C2AB10033D1A7;
+					};
+					59E20B1F1D8C2AB20033D1A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 59E20AFB1D8C2AB10033D1A7;
+					};
+				};
+			};
+			buildConfigurationList = 59E20AF71D8C2AB10033D1A7 /* Build configuration list for PBXProject "WoNiu-Home" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59E20AF31D8C2AB10033D1A7;
+			productRefGroup = 59E20AFD1D8C2AB10033D1A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59E20AFB1D8C2AB10033D1A7 /* WoNiu-Home */,
+				59E20B141D8C2AB20033D1A7 /* WoNiu-HomeTests */,
+				59E20B1F1D8C2AB20033D1A7 /* WoNiu-HomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59E20AFA1D8C2AB10033D1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E20B0F1D8C2AB10033D1A7 /* LaunchScreen.storyboard in Resources */,
+				59E20B0C1D8C2AB10033D1A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E20B131D8C2AB20033D1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E20B1E1D8C2AB20033D1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		438C99ECA81116B5E08A3B40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoNiu-Home/Pods-WoNiu-Home-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9394D53472D8994BBA9F57F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoNiu-Home/Pods-WoNiu-Home-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A3D2FA18CE9407C52AE6D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59E20AF81D8C2AB10033D1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E60C551D8C3B3E00C58EFA /* WNBaseRequest.m in Sources */,
+				59E60C361D8C339E00C58EFA /* WNTabbarController.m in Sources */,
+				59E20B011D8C2AB10033D1A7 /* main.m in Sources */,
+				59E60C451D8C35AF00C58EFA /* WNNewsViewController.m in Sources */,
+				59E60C521D8C3AEC00C58EFA /* WNAppBaseManager.m in Sources */,
+				59E60C3C1D8C33EE00C58EFA /* WNMainViewController.m in Sources */,
+				59E60C391D8C33C300C58EFA /* WNBaseViewController.m in Sources */,
+				59E60C481D8C35C500C58EFA /* WNProfileViewController.m in Sources */,
+				59E60C2B1D8C32C900C58EFA /* AppDelegate.m in Sources */,
+				59E60C331D8C337900C58EFA /* WNNavgationController.m in Sources */,
+				59E60C421D8C358F00C58EFA /* WNHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E20B111D8C2AB20033D1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E20B1A1D8C2AB20033D1A7 /* WoNiu_HomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E20B1C1D8C2AB20033D1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E20B251D8C2AB20033D1A7 /* WoNiu_HomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59E20B171D8C2AB20033D1A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E20AFB1D8C2AB10033D1A7 /* WoNiu-Home */;
+			targetProxy = 59E20B161D8C2AB20033D1A7 /* PBXContainerItemProxy */;
+		};
+		59E20B221D8C2AB20033D1A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E20AFB1D8C2AB10033D1A7 /* WoNiu-Home */;
+			targetProxy = 59E20B211D8C2AB20033D1A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59E20B0D1D8C2AB10033D1A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E20B0E1D8C2AB10033D1A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59E20B271D8C2AB20033D1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59E20B281D8C2AB20033D1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59E20B2A1D8C2AB20033D1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148847BD6D5C25F4793F228E /* Pods-WoNiu-Home.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "WoNiu-Prefix.pch";
+				INFOPLIST_FILE = "WoNiu-Home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WN.WoNiu-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59E20B2B1D8C2AB20033D1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6ADA4AFED9B9EC97D0F257 /* Pods-WoNiu-Home.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "WoNiu-Prefix.pch";
+				INFOPLIST_FILE = "WoNiu-Home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WN.WoNiu-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59E20B2D1D8C2AB20033D1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WoNiu-HomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WN.WoNiu-HomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoNiu-Home.app/WoNiu-Home";
+			};
+			name = Debug;
+		};
+		59E20B2E1D8C2AB20033D1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WoNiu-HomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WN.WoNiu-HomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoNiu-Home.app/WoNiu-Home";
+			};
+			name = Release;
+		};
+		59E20B301D8C2AB20033D1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WoNiu-HomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WN.WoNiu-HomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WoNiu-Home";
+			};
+			name = Debug;
+		};
+		59E20B311D8C2AB20033D1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WoNiu-HomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WN.WoNiu-HomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WoNiu-Home";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59E20AF71D8C2AB10033D1A7 /* Build configuration list for PBXProject "WoNiu-Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E20B271D8C2AB20033D1A7 /* Debug */,
+				59E20B281D8C2AB20033D1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E20B291D8C2AB20033D1A7 /* Build configuration list for PBXNativeTarget "WoNiu-Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E20B2A1D8C2AB20033D1A7 /* Debug */,
+				59E20B2B1D8C2AB20033D1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E20B2C1D8C2AB20033D1A7 /* Build configuration list for PBXNativeTarget "WoNiu-HomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E20B2D1D8C2AB20033D1A7 /* Debug */,
+				59E20B2E1D8C2AB20033D1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E20B2F1D8C2AB20033D1A7 /* Build configuration list for PBXNativeTarget "WoNiu-HomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E20B301D8C2AB20033D1A7 /* Debug */,
+				59E20B311D8C2AB20033D1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59E20AF41D8C2AB10033D1A7 /* Project object */;
+}
